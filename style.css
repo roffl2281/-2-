@@ -1,0 +1,33 @@
+.bg-box {
+            width: 1200px;
+            height: 800px; /* Висота на весь екран */
+            background-color: green; /* Основний фон */
+            background-image: 
+            url('img/lamp-png-34914.png'), /* Верхній ряд лампочок */
+            url('img/green-png-44873.png'),     /* Нижній ряд трави */
+            url('img/3F3F.webp'),   /* Лівий ряд хом'ячків */
+            url('img/58eb07b830eab15b56162788.png'),     /* Правий ряд пончиків */
+            
+            url('img/pole-zelen-trava-dom-derevya.webp');     /* Центральне зображення */
+            background-repeat: 
+                repeat-x,  /* Лампочки по горизонталі */
+repeat-x,  /* Трава по горизонталі */
+                repeat-y,  /* Хом'ячки по вертикалі */
+                repeat-y,  /* Пончики по вертикалі */
+                
+                no-repeat; /* Будинок без повторення */
+            background-position: 
+                top center,  /* Лампочки по верху */
+bottom center, /* Трава внизу */
+                left center, /* Хом'ячки зліва */
+                right center, /* Пончики справа */
+                
+                center; /* Будинок у центрі */
+            background-size: 
+                50px auto,  /* Розмір лампочок */
+                 300px auto,  /* Розмір трави (вся ширина, 80px у висоту) */
+                40px auto,  /* Розмір хом'ячків */
+                40px auto,  /* Розмір пончиків */
+                
+                500px auto; /* Масштабування будинку */
+        }
